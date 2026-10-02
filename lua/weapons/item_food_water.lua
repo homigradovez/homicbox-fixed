@@ -9,8 +9,8 @@ SWEP.Slot = 3
 SWEP.SlotPos = 3
 SWEP.Spawnable = true
 
-SWEP.ViewModel = "models/drug_mod/the_bottle_of_water.mdl"
-SWEP.WorldModel = "models/drug_mod/the_bottle_of_water.mdl"
+SWEP.ViewModel = "models/jorddrink/the_bottle_of_water.mdl"
+SWEP.WorldModel = "models/jorddrink/the_bottle_of_water.mdl"
 
 
 SWEP.Healsound = Sound("usable_items/item_tetrapakwcap_03_drink.wav")
