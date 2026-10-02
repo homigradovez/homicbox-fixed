@@ -284,9 +284,7 @@ local ammoents = {
     },
 }
 
-print("yea!")
 for k,v in pairs(ammotypes) do
-    --PrintTable(v)
     game.AddAmmoType( v )
     if CLIENT then
         language.Add(v.name.."_ammo", v.name)
@@ -295,7 +293,7 @@ for k,v in pairs(ammotypes) do
     local ammoent = {} 
     ammoent.Base = "ammo_base"
     ammoent.PrintName = v.name
-    ammoent.Category = "Патроны"
+    ammoent.Category = "HB Ammo"
     ammoent.Spawnable = true
     ammoent.AmmoCount = 10
     ammoent.AmmoType = v.name
@@ -309,7 +307,6 @@ end
 
 timer.Simple(1,function()
     game.BuildAmmoTypes()
-    PrintTable(game.GetAmmoTypes())
 end)
 
 if CLIENT then

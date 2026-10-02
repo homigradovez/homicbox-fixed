@@ -11,7 +11,7 @@ else
 	SWEP.DrawCrosshair = false
 	SWEP.ViewModelFOV = 45
 	SWEP.BounceWeaponIcon = false
-	SWEP.WepSelectIcon = surface.GetTextureID( "vgui/wep_jack_hmcd_hands" )
+	SWEP.WepSelectIcon = surface.GetTextureID( "vgui/hud/gmod_hand" )
 	local HandTex, ClosedTex = surface.GetTextureID("vgui/hud/gmod_hand"), surface.GetTextureID("vgui/hud/gmod_closedhand")
 
 	function SWEP:DrawWeaponSelection( x, y, wide, tall, alpha )

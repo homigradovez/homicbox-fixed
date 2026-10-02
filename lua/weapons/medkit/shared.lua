@@ -11,8 +11,8 @@ SWEP.Category = "Медицина"
 SWEP.Slot = 3
 SWEP.SlotPos = 3
 
-SWEP.ViewModel = "models/w_models/weapons/w_eq_medkit.mdl"
-SWEP.WorldModel = "models/w_models/weapons/w_eq_medkit.mdl"
+SWEP.ViewModel = "models/bloocobalt/l4d/items/w_eq_fieldkit.mdl"
+SWEP.WorldModel = "models/bloocobalt/l4d/items/w_eq_fieldkit.mdl"
 
 SWEP.Primary.ClipSize = -1
 SWEP.Primary.DefaultClip = -1

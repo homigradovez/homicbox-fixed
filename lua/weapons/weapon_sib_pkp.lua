@@ -1,0 +1,62 @@
+SWEP.Base = 'salat_base' -- base
+
+SWEP.PrintName 				= "PKM"
+SWEP.Author 				= "Kalashnikov"
+SWEP.Instructions			= "A serious argument in any internet conflict, just today's 7.62x39."
+SWEP.Category 				= "SIB Machine Guns"
+
+SWEP.Spawnable 				= true
+SWEP.AdminOnly 				= false
+
+------------------------------------------
+
+SWEP.Primary.ClipSize		= 150
+SWEP.Primary.DefaultClip	= 150
+SWEP.Primary.Automatic		= true
+SWEP.Primary.Ammo			= "7.62x39 mm"
+SWEP.Primary.Cone = 0
+SWEP.Primary.Damage = 70
+SWEP.Primary.Spread = 0
+SWEP.Primary.Sound = "weapons/tfa_ins2/ak103/ak103_fp.wav"
+SWEP.Primary.FarSound = "weapons/m249/distant.wav"
+SWEP.Primary.Force = 38
+SWEP.ReloadTime = 10
+SWEP.ShootWait = 0.07
+SWEP.ReloadSounds = {
+    [0.1] = {"weapons/m249/boxout.wav"},
+    [1] = {"weapons/m249/boxin.wav"},
+    [1.5] = {"weapons/m249/coverdown.wav"},
+}
+SWEP.TwoHands = true
+SWEP.Shell = "EjectBrass_556"
+SWEP.ShellRotate = false
+
+SWEP.Secondary.ClipSize		= -1
+SWEP.Secondary.DefaultClip	= -1
+SWEP.Secondary.Automatic	= false
+SWEP.Secondary.Ammo			= "none"
+
+------------------------------------------
+
+SWEP.Weight					= 5
+SWEP.AutoSwitchTo			= false
+SWEP.AutoSwitchFrom			= false
+
+SWEP.HoldType = "smg"
+
+------------------------------------------
+
+SWEP.Slot					= 2
+SWEP.SlotPos				= 0
+SWEP.DrawAmmo				= true
+SWEP.DrawCrosshair			= false
+
+SWEP.ViewModel				= "models/pwb/weapons/w_pkm.mdl"
+SWEP.WorldModel				= "models/pwb/weapons/w_pkm.mdl"
+
+SWEP.addAng = Angle(0,-0.5,0) -- Barrel pos adjust
+SWEP.addPos = Vector(0,0,0) -- Barrel ang adjust
+SWEP.SightPos = Vector(-7,0.8,4.7) -- Sight pos
+SWEP.SightAng = Angle(-5,-1,0) -- Sight ang
+
+SWEP.Mobility = 4

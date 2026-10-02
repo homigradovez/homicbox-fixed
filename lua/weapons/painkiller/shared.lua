@@ -12,8 +12,8 @@ SWEP.Category = "Медицина"
 SWEP.Slot = 3
 SWEP.SlotPos = 3
 
-SWEP.ViewModel = "models/w_models/weapons/w_eq_painpills.mdl"
-SWEP.WorldModel = "models/w_models/weapons/w_eq_painpills.mdl"
+SWEP.ViewModel = "models/bloocobalt/l4d/items/w_eq_pills.mdl"
+SWEP.WorldModel = "models/bloocobalt/l4d/items/w_eq_pills.mdl"
 
 SWEP.dwsPos = Vector(10,10,10)
 

@@ -119,35 +119,5 @@ end)
 
 -- DEATH TIMER
 
-util.AddNetworkString("RespawnTimer")
-
-local mintime = {
-    ["superadmin"] = 10,
-    ["admin"] = 10,
-    ["premium"] = 15,
-	["user"] = 25,
-}
-
-hook.Add("PlayerDeath", "identifier", function(ply)
-    ply.timeOfDeath = CurTime() + (mintime[ply:GetUserGroup()] or 45)
-    net.Start("RespawnTimer")
-    	net.WriteFloat(ply.timeOfDeath)
-    net.Send(ply)
-end)
-
-hook.Add("PlayerDeathThink", "pspawn", function(ply)
-    if ply.timeOfDeath then
-        ply.timeleft = math.abs(CurTime() - ply.timeOfDeath, 0)
-        if ply.timeleft <= 0 then
-            ply:Spawn()
-			ply.timeOfDeath = nil
-			return true
-        end
-        return false
-    else
-   	 	return true
-    end
-end)
-
 
 

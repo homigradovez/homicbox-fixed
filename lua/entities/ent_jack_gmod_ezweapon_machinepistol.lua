@@ -1,0 +1,14 @@
+﻿-- Jackarunda 2021
+AddCSLuaFile()
+ENT.Base = "ent_jack_gmod_ezweapon"
+ENT.PrintName = "EZ Machine Pistol"
+ENT.Spawnable = false
+ENT.Category = "JMod - EZ Weapons"
+ENT.WeaponName = "Machine Pistol"
+
+---
+if SERVER then
+elseif CLIENT then
+	--
+	--(ENT.ClassName, ENT.PrintName)
+end
