@@ -2,15 +2,15 @@ SWEP.Base = 'weapon_food_base'
 
 SWEP.PrintName = "Пиво"
 SWEP.Author = "Homicbox"
-SWEP.Purpose = "Обычное бутылочное пиво"
+SWEP.Purpose = ""
 SWEP.Category = "Еда"
 
 SWEP.Slot = 3
 SWEP.SlotPos = 3
 SWEP.Spawnable = true
 
-SWEP.ViewModel = "models/foodnhouseholditems/beer_stoltz.mdl"
-SWEP.WorldModel = "models/foodnhouseholditems/beer_stoltz.mdl"
+SWEP.ViewModel = "models/jorddrink/heican01a.mdl"
+SWEP.WorldModel = "models/jorddrink/heican01a.mdl"
 
 
 SWEP.Healsound = Sound("eating_&_drinking/drinking.wav")
