@@ -2,7 +2,7 @@ SWEP.Base = 'weapon_food_base'
 
 SWEP.PrintName = "Картошка фри"
 SWEP.Author = "Homicbox"
-SWEP.Purpose = "Классический бутерброд"
+SWEP.Purpose = ""
 SWEP.Category = "Еда"
 
 SWEP.Slot = 3
