@@ -5,3 +5,4 @@
 -Нету модели поверх рагдолла     
 -Одна папка в addons вместо кучи	 
 # Обезательно скачайте [КОНТЕНТ!](https://steamcommunity.com/sharedfiles/filedetails/?id=3811951408)
+(Если есть ошибки попробуйте скачать [Lua Patcher](https://steamcommunity.com/sharedfiles/filedetails/?id=2403043112))
