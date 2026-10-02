@@ -29,6 +29,9 @@ Guns = {
 	"weapon_sib_m98",
 	"weapon_sib_m14",
 	"weapon_sib_galil",
+	"weapon_sib_ar15",
+	"weapon_sib_pkp",
+	"weapon_sib_akm",
 	"weapon_sib_p90"
 }
 bullets = {
@@ -72,6 +75,9 @@ TwoHandedOrNo = {
 	["weapon_sib_m98"] = true,
 	["weapon_sib_m14"] = true,
 	["weapon_sib_galil"] = true,
+	["weapon_sib_ar15"] = true,
+	["weapon_sib_pkp"] = true,
+	["weapon_sib_akm"] = true,
 	["weapon_sib_p90"] = true
 }
 
@@ -106,6 +112,9 @@ Vectors = {
 ["weapon_sib_m98"] = Vector(12,-2,3),
 ["weapon_sib_m14"] = Vector(-2,-2,1),
 ["weapon_sib_galil"] = Vector(12,-2,1),
+["weapon_sib_ar15"] = Vector(12,-2,2),
+["weapon_sib_akm"] = Vector(12,-2,2),
+["weapon_sib_pkp"] = Vector(12,-2,2),
 ["weapon_sib_p90"] = Vector(2,-1,3)
 }
 
@@ -131,6 +140,9 @@ Vectors2 = {
 ["weapon_sib_m98"] = Vector(8,-4,-4),
 ["weapon_sib_m14"] = Vector(12,-4,-2),
 ["weapon_sib_galil"] = Vector(12,-4,-4),
+["weapon_sib_ar15"] = Vector(10,-4,-4),
+["weapon_sib_akm"] = Vector(10,-4,-4),
+["weapon_sib_pkp"] = Vector(10,-4,-4),
 ["weapon_sib_p90"] = Vector(5,-3,-2)
 }
 
