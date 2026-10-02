@@ -9,8 +9,8 @@ SWEP.Slot = 3
 SWEP.SlotPos = 3
 SWEP.Spawnable = true
 
-SWEP.ViewModel = "models/foodnhouseholditems/watermelon_slice.mdl"
-SWEP.WorldModel = "models/foodnhouseholditems/watermelon_slice.mdl"
+SWEP.ViewModel = "models/props_junk/watermelon01_chunk01b.mdl"
+SWEP.WorldModel = "models/props_junk/watermelon01_chunk01b.mdl"
 
 
 SWEP.Healsound = Sound("usable_items/item_crackers_03_eat.wav")
