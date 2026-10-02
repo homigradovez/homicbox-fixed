@@ -9,8 +9,8 @@ SWEP.Slot = 3
 SWEP.SlotPos = 3
 SWEP.Spawnable = true
 
-SWEP.ViewModel = "models/foodnhouseholditems/apple.mdl"
-SWEP.WorldModel = "models/foodnhouseholditems/apple.mdl"
+SWEP.ViewModel = "models/jmod/props/plants/japple.mdl"
+SWEP.WorldModel = "models/jmod/props/plants/japple.mdl"
 
 
 SWEP.Healsound = Sound("usable_items/item_flakes_03_eat.wav")
