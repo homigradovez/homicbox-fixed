@@ -9,8 +9,8 @@ SWEP.Slot = 3
 SWEP.SlotPos = 3
 SWEP.Spawnable = true
 
-SWEP.ViewModel = "models/foodnhouseholditems/burgersims2.mdl"
-SWEP.WorldModel = "models/foodnhouseholditems/burgersims2.mdl"
+SWEP.ViewModel = "models/foodnhouseholditems/mcdburgerbox.mdl"
+SWEP.WorldModel = "models/foodnhouseholditems/mcdburgerbox.mdl"
 
 
 SWEP.Healsound = Sound("usable_items/item_flakes_03_eat.wav")
