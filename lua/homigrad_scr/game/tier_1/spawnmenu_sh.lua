@@ -4,25 +4,25 @@ local validUserGroup = {
 }
 
 local BlackList = {
-	["ent_jack_gmod_ezarmor_slcalf"] = true,
-    ["ent_jack_gmod_ezarmor_srcalf"] = true,
-	["ent_jack_gmod_ezarmor_slforearm"] = true,
-	["ent_jack_gmod_ezarmor_srforearm"] = true,
-    ["ent_jack_gmod_ezarmor_htorso"] = true,
-    ["ent_jack_gmod_ezarmor_mhtorso"] = true,
-	["ent_jack_gmod_ezarmor_mtorso"] = true,
-	["ent_jack_gmod_ezarmor_llthigh"] = true,
-	["ent_jack_gmod_ezarmor_lrthigh"] = true,
-	["ent_jack_gmod_ezarmor_hlshoulder"] = true,
-	["ent_jack_gmod_ezarmor_hrshoulder"] = true,
-	["ent_jack_gmod_ezarmor_hlthigh"] = true,
-	["ent_jack_gmod_ezarmor_hrthigh"] = true,
-	["ent_jack_gmod_ezarmor_lrshoulder"] = true,
-	["ent_jack_gmod_ezarmor_llshoulder"] = true,
-	["ent_jack_gmod_ezarmor_maska"] = true,
-	["ent_jack_gmod_ezarmor_spelvis"] = true,
-    ["ent_jack_gmod_ezarmor_hhead"] = true,
-    ["ent_jack_gmod_ezarmor_mltorso"] = true
+	["ent_jack_gmod_ezarmor_slcalf"] = false,
+    ["ent_jack_gmod_ezarmor_srcalf"] = false,
+	["ent_jack_gmod_ezarmor_slforearm"] = false,
+	["ent_jack_gmod_ezarmor_srforearm"] = false,
+    ["ent_jack_gmod_ezarmor_htorso"] = false,
+    ["ent_jack_gmod_ezarmor_mhtorso"] = false,
+	["ent_jack_gmod_ezarmor_mtorso"] = false,
+	["ent_jack_gmod_ezarmor_llthigh"] = false,
+	["ent_jack_gmod_ezarmor_lrthigh"] = false,
+	["ent_jack_gmod_ezarmor_hlshoulder"] = false,
+	["ent_jack_gmod_ezarmor_hrshoulder"] = false,
+	["ent_jack_gmod_ezarmor_hlthigh"] = false,
+	["ent_jack_gmod_ezarmor_hrthigh"] = false,
+	["ent_jack_gmod_ezarmor_lrshoulder"] = false,
+	["ent_jack_gmod_ezarmor_llshoulder"] = false,
+	["ent_jack_gmod_ezarmor_maska"] = false,
+	["ent_jack_gmod_ezarmor_spelvis"] = false,
+    ["ent_jack_gmod_ezarmor_hhead"] = false,
+    ["ent_jack_gmod_ezarmor_mltorso"] = false
 }
 
 if SERVER then
