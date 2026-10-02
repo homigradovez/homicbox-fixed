@@ -9,8 +9,8 @@ SWEP.Slot = 3
 SWEP.SlotPos = 3
 SWEP.Spawnable = true
 
-SWEP.ViewModel = "models/foodnhouseholditems/sodacan01.mdl"
-SWEP.WorldModel = "models/foodnhouseholditems/sodacan01.mdl"
+SWEP.ViewModel = "models/jorddrink/cozcan01a.mdl"
+SWEP.WorldModel = "models/jorddrink/cozcan01a.mdl"
 
 
 SWEP.Healsound = Sound("usable_items/item_drinkcan_02_drink.wav")
