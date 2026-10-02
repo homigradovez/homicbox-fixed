@@ -11,7 +11,7 @@ ENT.BaseModel = "models/hunter/blocks/cube025x025x025.mdl"
 ENT.GunModel = "models/pwb2/weapons/w_pkm.mdl"
 ENT.NextShoot = 0
 
-ENT.Damage = 55
+ENT.Damage = 70
 ENT.Force = 30
 
 ENT.MaxClip = 150
@@ -29,5 +29,5 @@ ENT.ReloadSounds = {
     [5] = {"pwb/weapons/pkm/bolt.wav"}
 }
 
-ENT.ShootSound = "pwb/weapons/pkm/shoot.wav"
+ENT.ShootSound = "weapons/tfa_ins2/ak103/ak103_fp.wav"
 ENT.ShootSoundFar = "snd_jack_hmcd_snp_far.wav"
