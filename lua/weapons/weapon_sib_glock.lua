@@ -1,6 +1,6 @@
 SWEP.Base = 'salat_base' -- base
 
-SWEP.PrintName 				= "Glock 18"
+SWEP.PrintName 				= "Glock 17"
 SWEP.Author 				= "Glock Ges.m.b.H."
 SWEP.Instructions			= "Glock is a brand of polymer-framed, short recoil-operated, locked-breech semi-automatic pistols designed and produced by Austrian manufacturer Glock Ges.m.b.H."
 SWEP.Category 				= "SIB Pistols"
