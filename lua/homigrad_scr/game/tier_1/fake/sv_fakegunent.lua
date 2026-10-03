@@ -36,7 +36,7 @@ Guns = {
 	"weapon_spas12",
 	"weapon_mateba",
 	"weapon_glock18c",
-	""weapon_saiga12"
+	"weapon_saiga12"
 }
 bullets = {
 	["weapon_sib_m3super90"] = 12,
