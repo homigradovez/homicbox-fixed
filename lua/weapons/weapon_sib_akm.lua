@@ -19,7 +19,7 @@ SWEP.Primary.Damage = 63
 SWEP.Primary.Spread = 0
 SWEP.Primary.Sound = "weapons/ak47/fire.wav"
 SWEP.Primary.FarSound = "weapons/ak47/distant.wav"
-SWEP.Primary.Force = 40
+SWEP.Primary.Force = 37
 SWEP.ReloadTime = 2.8
 SWEP.ShootWait = 0.095
 SWEP.ReloadSounds = {
@@ -55,7 +55,7 @@ SWEP.WorldModel				= "models/pwb/weapons/w_akm.mdl"
 
 SWEP.addAng = Angle(-0.02,-0.08,0) -- Barrel pos adjust
 SWEP.addPos = Vector(0,0,0) -- Barrel ang adjust
-SWEP.SightPos = Vector(-5,0.8,5) -- Sight pos
+SWEP.SightPos = Vector(-5,0.76,5) -- Sight pos
 SWEP.SightAng = Angle(-6,0,-2) -- Sight ang
 
 SWEP.Mobility = 1.4
