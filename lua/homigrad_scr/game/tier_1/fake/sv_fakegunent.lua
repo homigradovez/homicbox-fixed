@@ -35,7 +35,8 @@ Guns = {
 	"weapon_sib_p90",
 	"weapon_spas12",
 	"weapon_mateba",
-	"weapon_glock18c"
+	"weapon_glock18c",
+	""weapon_saiga12"
 }
 bullets = {
 	["weapon_sib_m3super90"] = 12,
@@ -84,7 +85,8 @@ TwoHandedOrNo = {
 	["weapon_spas12"] = true,
 	["weapon_sib_p90"] = true,
 	["weapon_mateba"] = false,
-	["weapon_glock18c"] = false
+	["weapon_glock18c"] = false,
+	[""weapon_saiga12"] = true
 }
 
 Vectors = {
@@ -124,7 +126,8 @@ Vectors = {
 ["weapon_sib_p90"] = Vector(2,-1,3),
 ["weapon_spas12"] = Vector(13,-1,2.5),
 ["weapon_mateba"] =  Vector(0,0,0),
-["weapon_glock18c"] = Vector(4,-1.2,2.4)
+["weapon_glock18c"] = Vector(4,-1.2,2.4),
+["weapon_saiga12"] = Vector(12,-2,2)
 }
 
 Vectors2 = {
@@ -153,7 +156,8 @@ Vectors2 = {
 ["weapon_sib_akm"] = Vector(10,-4,-4),
 ["weapon_sib_pkp"] = Vector(10,-4,-4),
 ["weapon_sib_p90"] = Vector(5,-3,-2),
-["weapon_spas12"] = Vector(12,-3,-2)
+["weapon_spas12"] = Vector(12,-3,-2),
+["weapon_saiga12"] = Vector(10,-4,-4)
 }
 
 vecZero = Vector(0,0,0)
