@@ -1,6 +1,6 @@
 SWEP.Base = 'salat_base' -- base
 
-SWEP.PrintName 				= "Benelli M4 Auto"
+SWEP.PrintName 				= "Benelli M4 Super 90"
 SWEP.Author 				= "Benelli Armi SPA"
 SWEP.Instructions			= "The Benelli M4 is a semi-automatic shotgun produced by Italian firearm manufacturer Benelli Armi SpA, and the fourth and last model of the Benelli Super 90 line of semi-automatic shotguns. The M4 uses a proprietary action design called the auto-regulating gas-operated (ARGO) system, which was created specifically for the weapon. Designed in 1998, the M4 was adopted by the armed forces of Italy, the United States, and United Kingdom, among others, and has been used in a variety of conflicts."
 SWEP.Category 				= "SIB Shotguns"
@@ -12,17 +12,17 @@ SWEP.AdminOnly 				= false
 
 SWEP.Primary.ClipSize		= 8
 SWEP.Primary.DefaultClip	= 8
-SWEP.Primary.Automatic		= true
+SWEP.Primary.Automatic		= false
 SWEP.Primary.Ammo			= "12/70 gauge"
 SWEP.Primary.Cone = 0.03
 SWEP.Primary.Damage = 10
 SWEP.Primary.Spread = 0
 SWEP.Primary.Sound = "weapons/mag7/fire01.wav"
 SWEP.Primary.FarSound = "weapons/mag7/distant01.wav"
-SWEP.Primary.Force = 35
+SWEP.Primary.Force = 48
 SWEP.ReloadTime = 2.7
 SWEP.ShootWait = 0.15
-SWEP.NumBullet = 12
+SWEP.NumBullet = 8
 SWEP.ReloadSounds = {
     [0.3] = {"weapons/nova/insertshell01.wav"},
     [0.6] = {"weapons/nova/insertshell02.wav"},
