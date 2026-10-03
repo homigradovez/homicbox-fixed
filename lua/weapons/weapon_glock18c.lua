@@ -20,13 +20,13 @@ SWEP.Primary.Spread = 0
 SWEP.Primary.Sound = "weapons/glock18/fire01.wav"
 SWEP.Primary.FarSound = "snd_jack_hmcd_smp_far.wav"
 SWEP.Primary.Force = 15
-SWEP.ReloadTime = 2
-SWEP.ShootWait = 0.1
+SWEP.ReloadTime = 2.8
+SWEP.ShootWait = 0.05
 SWEP.ReloadSounds = {
     [0.1] = {"weapons/glock18/clipout.wav"},
-    [0.8] = {"weapons/glock18/clipin.wav"},
-    [1.2] = {"weapons/glock18/slideback.wav"},
-    [1.4] = {"weapons/glock18/slideforward.wav"},
+    [1.1] = {"weapons/glock18/clipin.wav"},
+    [1.4] = {"weapons/glock18/slideback.wav"},
+    [1.6] = {"weapons/glock18/slideforward.wav"},
 }
 
 ------------------------------------------
