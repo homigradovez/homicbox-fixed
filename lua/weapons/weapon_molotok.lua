@@ -3,7 +3,7 @@ SWEP.Base                   = "weapon_base"
 SWEP.PrintName 				= "Молоток"
 SWEP.Instructions			= "Ударный ручной инструмент, применяемый для забивания гвоздей, разбивания предметов и других работ"
 SWEP.Purpose                = "ЛКМ - бить, ПКМ+Е - изменить режим (забивание/отдирание гвоздей), ПКМ - забить/отдереть гвоздь (в зависимости от режима)"
-SWEP.Category 				= "Разное"
+SWEP.Category 				= "Ближний Бой"
 
 SWEP.Spawnable 				= true
 SWEP.AdminOnly 				= false
@@ -64,7 +64,7 @@ SWEP.DrawCrosshair = false
 SWEP.DrawAmmo = true
 
 SWEP.DrawSound = "weapons/melee/holster_in_light.wav"
-SWEP.HitSound = "snd_jack_hmcd_hammerhit.wav"
+SWEP.HitSound = "Concrete.ImpactHard"
 SWEP.FleshHitSound = "Flesh.ImpactHard"
 SWEP.ShouldDecal = false
 SWEP.HoldTypeWep = "melee2"
