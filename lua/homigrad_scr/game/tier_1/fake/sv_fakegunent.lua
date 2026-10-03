@@ -86,7 +86,7 @@ TwoHandedOrNo = {
 	["weapon_sib_p90"] = true,
 	["weapon_mateba"] = false,
 	["weapon_glock18c"] = false,
-	[""weapon_saiga12"] = true
+	["weapon_saiga12"] = true
 }
 
 Vectors = {
