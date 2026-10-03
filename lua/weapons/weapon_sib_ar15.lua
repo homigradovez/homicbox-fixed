@@ -2,7 +2,7 @@ SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "AR-15"
 SWEP.Author 				= "ArmaLite"
-SWEP.Instructions			= "AR-15 rifle The Colt model removed the selective fire feature of its predecessor, the original ArmaLite AR-15, itself a scaled-down derivative of the AR-10 design by Eugene Stoner."
+SWEP.Instructions			= "An AR-15–style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design."
 SWEP.Category 				= "SIB Rifles"
 
 SWEP.Spawnable 				= true
