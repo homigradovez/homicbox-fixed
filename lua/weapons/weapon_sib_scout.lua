@@ -26,7 +26,7 @@ SWEP.ReloadSounds = {
     [0.1] = {"weapons/ssg08/clipout.wav"},
     [1.3] = {"weapons/ssg08/clipin.wav"},
     [1.35] = {"weapons/ssg08/cliphit.wav"},
-    [2] = {"weapons/ssg08/boltforward.wav"},
+    [2] = {"weapons/ssg08/boltback.wav"},
     [2.4] = {"weapons/ssg08/boltforward.wav"}
 }
 SWEP.TwoHands = true
