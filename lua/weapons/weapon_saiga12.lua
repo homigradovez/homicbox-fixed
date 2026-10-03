@@ -10,8 +10,8 @@ SWEP.AdminOnly 				= false
 
 ------------------------------------------
 
-SWEP.Primary.ClipSize		= 12
-SWEP.Primary.DefaultClip	= 12
+SWEP.Primary.ClipSize		= 8
+SWEP.Primary.DefaultClip	= 8
 SWEP.Primary.Automatic		= false
 SWEP.Primary.Ammo			= "12/70 gauge"
 SWEP.Primary.Cone = 0.03
