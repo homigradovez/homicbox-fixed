@@ -284,6 +284,7 @@ local ammoents = {
     },
 }
 
+local function addAmmoTypes()
 for k,v in pairs(ammotypes) do
     game.AddAmmoType( v )
     if CLIENT then
@@ -302,12 +303,11 @@ for k,v in pairs(ammotypes) do
     ammoent.Color = ammoents[k].Color or nil
 
     scripted_ents.Register( ammoent, "ent_ammo_"..k )
-    end)
-end
+    end
 
-timer.Simple(1,function()
     game.BuildAmmoTypes()
-end)
+
+end
 
 if CLIENT then
     local blurMat = Material("pp/blurscreen")
