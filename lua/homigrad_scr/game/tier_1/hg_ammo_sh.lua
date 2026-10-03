@@ -290,7 +290,6 @@ for k,v in pairs(ammotypes) do
     if CLIENT then
         language.Add(v.name.."_ammo", v.name)
     end
-    timer.Simple(1,function()
     local ammoent = {} 
     ammoent.Base = "ammo_base"
     ammoent.PrintName = v.name
@@ -308,6 +307,9 @@ for k,v in pairs(ammotypes) do
     game.BuildAmmoTypes()
 
 end
+
+addAmmoTypes()
+hook.Add("Initialize", "init-ammo", addAmmoTypes)
 
 if CLIENT then
     local blurMat = Material("pp/blurscreen")
