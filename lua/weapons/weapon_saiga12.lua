@@ -24,9 +24,10 @@ SWEP.ReloadTime = 2.8
 SWEP.ShootWait = 0.25
 SWEP.NumBullet = 8
 SWEP.ReloadSounds = {
-    [0.3] = {"weapons/ak47/clipout.wav"},
-    [1.3] = {"weapons/ak47/clipin.wav"},
-    [1.8] = {"weapons/ak47/bolt.wav"},
+    [0.3] = {"weapons/tfa_ins2/akp/ak47/ak47_magout.wav"},
+    [1.3] = {"weapons/tfa_ins2/akp/ak47/ak47_magin.wav"},
+    [1.8] = {"weapons/tfa_ins2/ak103/ak103_boltback.wav"},
+    [2] = {"weapons/tfa_ins2/ak103/ak103_boltrelease.wav"},
 }
 SWEP.TwoHands = true
 SWEP.Shell = "EjectBrass_12Gauge"
