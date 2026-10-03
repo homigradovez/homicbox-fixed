@@ -2,7 +2,7 @@ SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "PKM"
 SWEP.Author 				= "Kalashnikov"
-SWEP.Instructions			= "A serious argument in any internet conflict, just today's 7.62x39."
+SWEP.Instructions			= "A belt-fed general-purpose machine gun, chambered for the 7.62×54mm rimmed cartridge."
 SWEP.Category 				= "SIB Machine Guns"
 
 SWEP.Spawnable 				= true
