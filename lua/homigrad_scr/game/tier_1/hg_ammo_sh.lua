@@ -295,7 +295,7 @@ for k,v in pairs(ammotypes) do
     ammoent.PrintName = v.name
     ammoent.Category = "HB Ammo"
     ammoent.Spawnable = true
-    ammoent.AmmoCount = 10
+    ammoent.AmmoCount = 30
     ammoent.AmmoType = v.name
     ammoent.ModelMaterial = ammoents[k].Material
     ammoent.ModelScale = ammoents[k].Scale
