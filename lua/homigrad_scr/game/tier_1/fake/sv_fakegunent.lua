@@ -39,14 +39,18 @@ Guns = {
 	"weapon_saiga12"
 }
 bullets = {
-	["weapon_sib_m3super90"] = 12,
-	["weapon_sib_xm1014"] = 12,
-	["weapon_sib_remington870"] = 12
+	["weapon_sib_m3super90"] = 8,
+	["weapon_sib_xm1014"] = 8,
+	["weapon_sib_remington870"] = 8,
+	["weapon_spas12"] = 8,
+	["weapon_saiga12"] = 8
 }
 cir = {
 	["weapon_sib_m3super90"] = 0.02,
 	["weapon_sib_xm1014"] = 0.04,
-	["weapon_sib_remington870"] = 0.025
+	["weapon_sib_remington870"] = 0.025,
+	["weapon_spas12"] = 0.025,
+	["weapon_saiga12"] = 0.025
 }
 TwoHandedOrNo = {
 	["weapon_sib_famas"] = true,
